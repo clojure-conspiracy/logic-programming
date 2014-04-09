@@ -1,14 +1,13 @@
 # logic-prog
 
-A Clojure library designed to ... well, that part is up to you.
+A solver for the countdown numbers game written using core.logic
 
-## Usage
+Usage
 
-FIXME
+```clojure
+(play 674 [5 74 2 3 9])
+=> (+ 5 (+ 3 (* 74 9)))
+```clojure
+Any number of integer choices may be given and any integer target.
 
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+It will only find exact answers, if there is no solution it will return nil rather than the closest calculation.
