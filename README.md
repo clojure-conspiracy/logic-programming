@@ -16,6 +16,5 @@ The coundown numbers game:
 Example:
 
 ```clojure
-(play 674 [5 74 2 3 9])
-=> (+ 5 (+ 3 (* 74 9)))
+(play 674 [5 74 2 3 9]) ;;=> (+ 5 (+ 3 (* 74 9)))
 ```
