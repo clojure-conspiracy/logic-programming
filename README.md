@@ -1,5 +1,7 @@
 # Logic Programming in Clojure
 
+https://github.com/clojure-conspiracy/logic-programming
+
 Powered by core.logic:
 
  * core.logic https://github.com/clojure/core.logic/wiki
